@@ -6,3 +6,4 @@
 5. INTRODUCTION TO EXPRESS - Your First Server <br>
 6. INTRODUCTION TO EXPRESS - GET Requests <br>
 7. INTRODUCTION TO EXPRESS - Response <br>
+8. INTRODUCTION TO EXPRESS - Recap <br>

@@ -2,3 +2,4 @@
 1. Set Up - Installing Express <br>
 2. Set Up - Understanding Dependencies <br>
 3. Set Up - The Tower of Babel <br>
+4. Set Up - Nodemon <br>

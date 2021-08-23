@@ -5,3 +5,4 @@
 4. Set Up - Nodemon <br>
 5. INTRODUCTION TO EXPRESS - Your First Server <br>
 6. INTRODUCTION TO EXPRESS - GET Requests <br>
+7. INTRODUCTION TO EXPRESS - Response <br>

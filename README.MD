@@ -4,3 +4,4 @@
 3. Set Up - The Tower of Babel <br>
 4. Set Up - Nodemon <br>
 5. INTRODUCTION TO EXPRESS - Your First Server <br>
+6. INTRODUCTION TO EXPRESS - GET Requests <br>

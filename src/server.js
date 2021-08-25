@@ -5,19 +5,26 @@ const PORT = 4000;
 
 const app = express();
 const logger = morgan("dev");
-
-
-const home = (req, res) => {
-    console.log("I will respond.");
-    return res.send("Hello.");
-}
-
-const login = (req, res) => {
-    return res.send("Login.");
-}
 app.use(logger);
-app.get("/",home );
-app.get("/login",login);
+
+const globalRouter = express.Router();
+const handleHome = (req, res) => res.send("Home")
+globalRouter.get("/", handleHome)
+
+const userRouter = express.Router();
+const handleEidtUser = (req, res) => res.send("Edit User")
+userRouter.get("/edit", handleEidtUser)
+
+const videoRouter = express.Router();
+const hadleWatchVideo = (req, res) => res.send("Watch Video")
+videoRouter.get("/watch", hadleWatchVideo)
+
+
+app.use("/", globalRouter);
+app.use("/videos",videoRouter);
+app.use("/users", userRouter);
+
+
 
 
 const handleListening = () => console.log(`Server listening on port http://localhost:${PORT}🚀`);

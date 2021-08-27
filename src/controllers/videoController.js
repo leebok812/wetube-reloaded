@@ -1,4 +1,4 @@
-export const trending = (req, res) => res.render("home")
+export const trending = (req, res) => res.render("home", {pageTitle: "Home"}); // pageTile comes from your controller
 export const see = (req, res) => res.render("watch"); // 파일명은 띄어쓰기가 있으면 안된다.
  
 export const edit = (req, res) => res.render("edit");

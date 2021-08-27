@@ -21,5 +21,6 @@
 20. Templates - Configuring Pug<br>
 21. Templates - Partials<br>
 22. Templates - Extending Templates<br>
+23. Templates - Variables to Templates<br>
 
 

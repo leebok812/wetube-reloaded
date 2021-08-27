@@ -20,5 +20,6 @@
 19. Templates - Returning HTML<br>
 20. Templates - Configuring Pug<br>
 21. Templates - Partials<br>
+22. Templates - Extending Templates<br>
 
 

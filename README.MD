@@ -26,4 +26,5 @@
 25. Templates - MVP Styles<br>
 26. Templates - Conditional<br>
 27. Templates - Iteration<br>
+28. Templates - Mixins<br>
 

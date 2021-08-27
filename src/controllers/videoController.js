@@ -1,15 +1,29 @@
 export const trending = (req, res) => {
   const videos = [
       {
-      title: "Hello",
+      title: "First Video",
+      rating: 5,
+      comments: 2,
+      created_at: "2 minutes ago",
+      views: 59,
+      id : 1
     },
     {
-      title: "video #2",
+      title: "Second Video",
+      rating: 5,
+      comments: 2,
+      created_at: "2 minutes ago",
+      views: 59,
+      id : 1
     },
     {
-      title: "What's Up"
+      title: "Third Video",
+      rating: 5,
+      comments: 2,
+      created_at: "2 minutes ago",
+      views: 59,
+      id : 1
     }
-
 ];
   return res.render("home", {pageTitle: "Home",videos}); // pageTile comes from your controller
 }

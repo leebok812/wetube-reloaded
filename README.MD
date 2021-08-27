@@ -19,5 +19,6 @@
 18. Routers - URL Parameters part Two<br>
 19. Templates - Returning HTML<br>
 20. Templates - Configuring Pug<br>
+21. Templates - Partials<br>
 
 

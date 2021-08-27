@@ -23,5 +23,6 @@
 22. Templates - Extending Templates<br>
 23. Templates - Variables to Templates<br>
 24. Templates - Recap<br>
+25. Templates - MVP Styles<br>
 
 
